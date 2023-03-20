@@ -1,3 +1,38 @@
+# Electiva diciplinaria II
+## Integrantes
+**Camilo Pachon** [@camilop13](https://github.com/camilop13)
+
+## Sprint 1:
+**-Historia de Usuario ED-001**
+
+*Historia de usuario*
+- Feature: Registro de producto
+- Scenario: Registro de producto en la platafora con codigi (nunca antes registrado)
+- Given: el usuario ha de hacer clic en el boton "Nuevo Producto" e introduce de forma correcta un codigo de producto, nombre, stock, imagen, descripcion.
+- When: el usuario clica sobre el boton de "Registrar Producto".
+- Then: el usuario puede registrar de forma correcta el producto y visualizar el producto creado.
+
+*Subtareas (Definir las tareas de BackEnd):*
+- Creacion de tablas de produccion con los campos...(llave unica codigo)
+- Metodos
+- URLS de End Points
+- Body de las solicitudes
+- Respuestas
+- Codigos HTTP de las respuestas
+- Mensajes de error
+
+**-Historia Tecnica ED-002**
+
+### Historia tecnica
+*Creacion de base de datos*
+
+En PostgreSQL, crea base de datos para almacenamiento persistente de los datos de la aplicacion.
+
+*Subtareas*
+- Instalacion de PostgreSQL
+- Creacion de la base de datos
+- configuracion de la conexion a la base de datos desde el framework
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
